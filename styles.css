@@ -1,0 +1,17 @@
+#text {
+  text-align: center;
+  color: rgb(0, 162, 255);
+  border: 5px solid
+}
+#author {
+  text-align: center;
+  color: red;
+}
+#new-quote {
+  
+  color: rgb(162, 0, 255)(162, 0, 255);
+}
+#tweet-quote {
+  
+  color:rgb(162, 0, 255)(162, 0, 255);
+}

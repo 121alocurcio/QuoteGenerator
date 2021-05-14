@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
-    <title>Static Template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></link>
+    <title>Quote Generator</title>
+    <script src="quote-java.js"></script>
   </head>
 
   <body>
-    <div id="quote-box">
-        <h1 id="text">Text</h1>
-        <h2 id="author">Author</h2>
-        <a id="new-quote" rel="New Quote" href="">Quote</a>
-        <p></p>
-        <a id="tweet-quote" rel="Tweet Quote" href="">Tweet quote</a>
+    <div class="container">
+    
+      <div id="quote-box">
+        <h1 id="text" class="alert alert-primary" role="alert">Quote</h1>
+        <div class="row text-center">
+          <div class="col">
+            <button id="new-quote" type="button" class="btn btn-primary btn-lg" onclick="getQuote()">Quote</button>
+        </div>
+      </div>
+       
         
+
   </div>
+</div>
   </body>
